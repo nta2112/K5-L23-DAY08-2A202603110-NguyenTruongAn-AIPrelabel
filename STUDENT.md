@@ -5,7 +5,7 @@
 - Lớp (L2 / L3 / khác): L2A
 - Tài khoản GitHub: https://github.com/nta2112
 - Repo bài nộp (URL): https://github.com/nta2112/K5-L23-DAY08-2A202603110-NguyenTruongAn-AIPrelabel
-- Commit chốt bài (hash): 
+- Commit chốt bài (hash): 5a9d252
 - Máy: WinDow10, không có
 - CVAT (Docker): v2.81.0
 
