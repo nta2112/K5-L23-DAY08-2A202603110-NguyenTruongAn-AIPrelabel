@@ -1,1 +1,6 @@
 case_id,image,nguon,van_de,quyet_dinh,quy_tac_ghi_vao_guideline,phien_ban_guideline
+CAL-01,img_006.jpg,loi_may,YOLO26m vẽ box motorbike trùm cả con chó ngồi sau xe và kéo dư lề,Cắt biên box đúng mép ảnh chỉ bao khung xe máy loại bỏ thú cưng khỏi box phương tiện,Mục 4.1 Biên hộp và cắt mép,v1.1
+CAL-02,img_023.jpg,can_review,YOLOE sinh box three_wheeler phình rộng lên khối bê tông phía trên,Kéo siết chặt 4 cạnh box ôm sát mái và bánh xe tuk-tuk gỡ cờ can_review sau khi sửa,Mục 4.1 Độ ôm sát biên,v1.1
+CAL-03,img_024.jpg,loi_may,YOLOE nhận nhầm xe buýt xanh cỡ lớn thành three_wheeler do ngưỡng thấp,Chuyển nhãn sang bus; three_wheeler chỉ áp dụng cho xe 3 bánh tuk-tuk xích lô,Mục 3 Phân biệt lớp phương tiện,v1.1
+CAL-04,img_024.jpg,cau_hoi_mo,Cụm phương tiện bị nhòe chuyển động mạnh vào ban đêm ở giao lộ xử lý thế nào,Dùng ignore_region bao cụm xe nhòe không thể đếm chính xác từng chiếc nếu nhìn rõ từng xe thì gán bình thường,Mục 4.3 Vùng loại trừ ignore_region,v1.1
+CAL-05,img_013.jpg,cau_hoi_mo,Người ngồi trên xe máy hoặc xe ba bánh có gộp vào box xe không khi chạy SAM theo điểm,Không gộp: người ngồi trên xe gán box person riêng xe gán box riêng; khi chạy SAM chỉ click vào thân hoặc mái xe,Mục 4.2 Tách mask và người lái,v1.1
